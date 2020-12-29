@@ -4,18 +4,18 @@
     name: "{{ item }}"
     state: present
   with_items:
-    - gimp
-    - flameshot
-    - inkscape
-    - vim
-    - podman-compose
-    - lastpass-cli
-    - lastpass-cli
     - dl
-    - mercurial
-    - ImageMagick
+    - flameshot
+    - gimp
     - golang
+    - ImageMagick
+    - inkscape
+    - lastpass-cli
+    - lastpass-cli
+    - mercurial
     - pandoc
+    - podman-compose
+    - vim
   tags:
     - common
 

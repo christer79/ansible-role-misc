@@ -15,6 +15,7 @@
     - mercurial
     - ImageMagick
     - golang
+    - pandoc
   tags:
     - common
 
